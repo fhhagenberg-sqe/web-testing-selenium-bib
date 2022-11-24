@@ -91,8 +91,8 @@ Read the blog entry [Page Objects in Selenium][] about the use of the 'Page Obje
 The test cases should be independent from finding elements, clicks, key strokes, waits, etc. operating on specific elements of a Web page. These operations and specific elements should be moved to Page Object classes `SearchPage`, `ResultsPage`, etc. Put these classes into a separate package (e.g. `at.fhhagenberg.sqe.pageobjects`).
 
 Note:
-* Follow the examples provided at [Page Objects in Selenium] and [SeleniumHQ Wiki about PageObjects][SeleniumHQ Wiki PageObjects].
-* Use the class `PageFactory` provided by Selenium to abbreviate the code in the Page Object classes. For further information see the aforementioned blog as well as the [Wiki documentation about PageFactories][SeleniumHQ Wiki PageFactory].
+* Follow the examples provided at [Page Objects in Selenium] and [Selenium Wiki PageObjects][Selenium Wiki PageObjects].
+* Use the class `PageFactory` provided by Selenium to abbreviate the code in the Page Object classes. For further information see the aforementioned blog as well as the [Wiki documentation about PageFactories][Selenium Wiki PageFactory].
 * Run your JUnit test cases – make sure they still pass.
 
 ### Submission
@@ -140,5 +140,5 @@ When you're done...
 [Maven Project]: https://maven.apache.org/guides/getting-started/
 [Page Objects in Selenium]: http://blog.activelylazy.co.uk/2011/07/09/page-objects-in-selenium-2-0/
 [Selenium WebDriver]: https://www.selenium.dev/documentation/en/webdriver/
-[Selenium Wiki PageObjects]: https://github.com/SeleniumHQ/selenium/wiki/PageObjects
+[Selenium Wiki PageObjects]: https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
 [Selenium Wiki PageFactory]: https://github.com/SeleniumHQ/selenium/wiki/PageFactory
