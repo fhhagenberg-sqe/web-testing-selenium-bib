@@ -4,7 +4,7 @@ In this assignment you learn how to build a maintainable test framework for test
 Starting with a simple Selenium based test you will gradually improve the code to get a test system with abstraction layer, reusable functions and a separate test data pool.
 
 
-## (1) Capture & Replay with Selenium IDE _(1 Point)_
+## (1) Capture & Replay with Selenium IDE _(2 Point)_
 
 In this exercise you learn the basics of automated web testing via capture and replay. We use [Selenium IDE][] for this.
 
@@ -39,7 +39,7 @@ When you're done...
 - [x] upload the [link to your release][GitHub linking to releases] on the e-learning platform until the specified date and time before the next lecture.
 
 
-## (2) JUnit Test using Selenium WebDriver _(2 Points)_
+## (2) JUnit Test using Selenium WebDriver _(3 Points)_
 
 The goal of this exercise is to learn how to create a simple system test for a web application using JUnit and Selenium WebDriver. 
 
